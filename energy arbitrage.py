@@ -4,7 +4,7 @@ import time
 
 
 nyiso = gridstatus.NYISO()
-threshold = 52
+threshold = 80
 spike_music = "https://www.youtube.com/watch?v=3fCEaeqaX6I&list=OLAK5uy_kil-neI15ZGAqwdT4ucB7kEWF4UQj_5f8&index=5"
 spiked = False
 
@@ -38,4 +38,3 @@ while True:
 
 #adjust threshold as needed
 #add relay switch, battery, and connect to a computer (like a raspberry pi)
->>>>>>> a1e4e92 (simplified logic)
